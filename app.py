@@ -5,7 +5,6 @@ load_dotenv()
 
 import streamlit as st
 api_key = os.getenv("OPENAI_API_KEY")
-st.write(api_key) 
 
 st.title("サンプルアプリ②: 少し複雑なWebアプリ")
 
